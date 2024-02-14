@@ -7,15 +7,13 @@ export default function Home() {
   async function Blue(){
     //fetch della get per capire lo stato del led
     const res = await fetch("https://esp32-jj7p.onrender.com/setNewBlue", {method : 'GET'})
-    let data = await res.json();
-    console.log(JSON.stringify(data))
+    console.log(JSON.stringify(res))
   }
 
   async function Red(){
     //fetch della get per capire lo stato del led
     const res = await fetch("https://esp32-jj7p.onrender.com/setNewRed", {method : 'GET'})
-    let data = await res.json();
-    console.log(JSON.stringify(data))
+    console.log(JSON.stringify(res))
   }
 
 return (
