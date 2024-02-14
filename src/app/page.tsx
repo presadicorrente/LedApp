@@ -24,8 +24,8 @@ return (
     <h1 className='text-white text-center text-4xl m-5'>
       riesco a comandare il led da tutte le parti del mondo
     </h1>
-    <button className="p-3 w-1/2 m-3 text-4xl text-center rounded-md bg-blue-500 hover:bg-blue-100" onClick={Blue}>blue</button>
-    <button className="p-3 w-1/2 m-3 text-4xl text-center rounded-md bg-red-500 hover:bg-red-100" onClick={Red}>Red</button>
+    <button className="p-3 w-1/2 m-3 text-4xl text-center rounded-md bg-blue-500 " onClick={Blue}>blue</button>
+    <button className="p-3 w-1/2 m-3 text-4xl text-center rounded-md bg-red-500 " onClick={Red}>Red</button>
   </div>
   )
 }
